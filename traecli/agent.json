@@ -1,0 +1,44 @@
+{
+  "id": "traecli",
+  "name": "TRAE CLI",
+  "version": "0.214.1",
+  "description": "TRAE CLI coding agent with native Agent Client Protocol support.",
+  "website": "https://docs.trae.cn/cli_get-started-with-trae-cli-2",
+  "authors": ["TRAE"],
+  "license": "proprietary",
+  "license_url": "https://docs.trae.cn/cli_open-source-software-notice",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-darwin-aarch64.tar.gz",
+        "cmd": "./traex",
+        "args": ["acp", "serve"]
+      },
+      "darwin-x86_64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-darwin-x86_64.tar.gz",
+        "cmd": "./traex",
+        "args": ["acp", "serve"]
+      },
+      "linux-aarch64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-linux-aarch64.tar.gz",
+        "cmd": "./traex",
+        "args": ["acp", "serve"]
+      },
+      "linux-x86_64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-linux-x86_64.tar.gz",
+        "cmd": "./traex",
+        "args": ["acp", "serve"]
+      },
+      "windows-aarch64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-windows-aarch64.zip",
+        "cmd": "./traex.exe",
+        "args": ["acp", "serve"]
+      },
+      "windows-x86_64": {
+        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-windows-x86_64.zip",
+        "cmd": "./traex.exe",
+        "args": ["acp", "serve"]
+      }
+    }
+  }
+}
