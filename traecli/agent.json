@@ -1,7 +1,7 @@
 {
   "id": "traecli",
   "name": "TRAE CLI",
-  "version": "0.214.1",
+  "version": "0.216.0-alpha.3",
   "description": "TRAE CLI coding agent with native Agent Client Protocol support.",
   "website": "https://docs.trae.cn/cli_get-started-with-trae-cli-2",
   "authors": ["TRAE"],
@@ -10,33 +10,39 @@
   "distribution": {
     "binary": {
       "darwin-aarch64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-darwin-aarch64.tar.gz",
-        "cmd": "./traex",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-darwin-aarch64.tar.gz",
+        "sha256": "d2c87ad8453debb16f0ac5e8027914d64830de4a4774d4531b66b59e419c0167",
+        "cmd": "./bin/traex",
         "args": ["acp", "serve"]
       },
       "darwin-x86_64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-darwin-x86_64.tar.gz",
-        "cmd": "./traex",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-darwin-x86_64.tar.gz",
+        "sha256": "485ead8ee627177adda9b845cbff2aa082e23b810dad6f1cfb1df01a2516a72e",
+        "cmd": "./bin/traex",
         "args": ["acp", "serve"]
       },
       "linux-aarch64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-linux-aarch64.tar.gz",
-        "cmd": "./traex",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-linux-aarch64.tar.gz",
+        "sha256": "91c34a7e6c6ede63871e99554da233fb84b84ed949af3d37a8dc8f988cd1a2f7",
+        "cmd": "./bin/traex",
         "args": ["acp", "serve"]
       },
       "linux-x86_64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-linux-x86_64.tar.gz",
-        "cmd": "./traex",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-linux-x86_64.tar.gz",
+        "sha256": "cf0f19d6645f49b29419a5bf7a7b8b6e043df568900b05e4f4c40ed6127414b0",
+        "cmd": "./bin/traex",
         "args": ["acp", "serve"]
       },
       "windows-aarch64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-windows-aarch64.zip",
-        "cmd": "./traex.exe",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-windows-aarch64.zip",
+        "sha256": "e5821cb55dd36d3cdfcad42e1dcc6e49f691444a43bdaf705b4fedb9bddb4885",
+        "cmd": "./bin/traex.exe",
         "args": ["acp", "serve"]
       },
       "windows-x86_64": {
-        "archive": "https://example.invalid/traecli/0.214.1/traecli-acp-windows-x86_64.zip",
-        "cmd": "./traex.exe",
+        "archive": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/traecli-acp-windows-x86_64.zip",
+        "sha256": "f3bdab37d87c57545004f23273da909707e49558e34c046b90487c25eef4de46",
+        "cmd": "./bin/traex.exe",
         "args": ["acp", "serve"]
       }
     }
