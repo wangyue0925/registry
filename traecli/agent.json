@@ -3,10 +3,10 @@
   "name": "TRAE CLI",
   "version": "0.216.0-alpha.3",
   "description": "TRAE CLI coding agent with native Agent Client Protocol support.",
-  "website": "https://docs.trae.cn/cli_get-started-with-trae-cli-2",
+  "website": "https://www.trae.cn/",
   "authors": ["TRAE"],
   "license": "proprietary",
-  "license_url": "https://docs.trae.cn/cli_open-source-software-notice",
+  "license_url": "https://www.trae.cn/terms-of-service",
   "distribution": {
     "binary": {
       "darwin-aarch64": {
