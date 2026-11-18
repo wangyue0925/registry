@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "product": "traecli",
+  "distribution": "acp",
+  "version": "0.216.0-alpha.3",
+  "channel": "public",
+  "release_channel": "alpha",
+  "source_commit": "73878f397c7d11abe7569330454a9f61390c5c49",
+  "inputs": {
+    "publicManifest": {
+      "sha256": "8eb4b439948215e4278bcc1e531aead126f7717a1febe504d3fdaccfc0f83951",
+      "canonical": false
+    },
+    "helperManifest": {
+      "sha256": "512db97733f431bf9bf933f9db5449507dc259bd28a18ed3f3df3870e028d937",
+      "canonical": true
+    },
+    "ripgrep": {
+      "sha256": "bd02b304164488acba64f373f39cf33d9b20de7ac5e8c1855e06b8da0eb803dd",
+      "canonical": false
+    },
+    "bubblewrap": {
+      "sha256": "935a70393e1c13496a12d59f92520b85330633c32c7ac3a402424521f097cef3",
+      "canonical": false
+    }
+  },
+  "artifacts": [
+    {
+      "platform": "darwin-x86_64",
+      "filename": "traecli-acp-darwin-x86_64.tar.gz",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-darwin-x86_64.tar.gz",
+      "sha256": "485ead8ee627177adda9b845cbff2aa082e23b810dad6f1cfb1df01a2516a72e",
+      "size": 211194694,
+      "compression": "tar.gz",
+      "cmd": "./bin/traex",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    },
+    {
+      "platform": "darwin-aarch64",
+      "filename": "traecli-acp-darwin-aarch64.tar.gz",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-darwin-aarch64.tar.gz",
+      "sha256": "d2c87ad8453debb16f0ac5e8027914d64830de4a4774d4531b66b59e419c0167",
+      "size": 206619428,
+      "compression": "tar.gz",
+      "cmd": "./bin/traex",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    },
+    {
+      "platform": "linux-x86_64",
+      "filename": "traecli-acp-linux-x86_64.tar.gz",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-linux-x86_64.tar.gz",
+      "sha256": "cf0f19d6645f49b29419a5bf7a7b8b6e043df568900b05e4f4c40ed6127414b0",
+      "size": 237029178,
+      "compression": "tar.gz",
+      "cmd": "./bin/traex",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    },
+    {
+      "platform": "linux-aarch64",
+      "filename": "traecli-acp-linux-aarch64.tar.gz",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-linux-aarch64.tar.gz",
+      "sha256": "91c34a7e6c6ede63871e99554da233fb84b84ed949af3d37a8dc8f988cd1a2f7",
+      "size": 234992570,
+      "compression": "tar.gz",
+      "cmd": "./bin/traex",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    },
+    {
+      "platform": "windows-x86_64",
+      "filename": "traecli-acp-windows-x86_64.zip",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-windows-x86_64.zip",
+      "sha256": "f3bdab37d87c57545004f23273da909707e49558e34c046b90487c25eef4de46",
+      "size": 579350645,
+      "compression": "zip",
+      "cmd": "./bin/traex.exe",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    },
+    {
+      "platform": "windows-aarch64",
+      "filename": "traecli-acp-windows-aarch64.zip",
+      "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-preview.3/traecli-acp-windows-aarch64.zip",
+      "sha256": "e5821cb55dd36d3cdfcad42e1dcc6e49f691444a43bdaf705b4fedb9bddb4885",
+      "size": 477352053,
+      "compression": "zip",
+      "cmd": "./bin/traex.exe",
+      "args": [
+        "acp",
+        "serve"
+      ],
+      "env": {}
+    }
+  ],
+  "distribution_version": "0.216.0-preview.3",
+  "binary_version": "0.216.0-alpha.3",
+  "alias_source": {
+    "url": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae-cli/v2/acp/releases/0.216.0-alpha.3/manifest.json",
+    "sha256": "15313f39aa280b6182bf82c6c2b79cfa4ed00c71a94fc74f1a754fdc51465b4b"
+  }
+}
